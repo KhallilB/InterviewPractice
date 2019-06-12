@@ -1,3 +1,4 @@
+// Problem:
 // Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 // You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
@@ -15,13 +16,14 @@
 // Elements must only be used once
 // Elements are integers
 
-// Soultion 1: Brute force
+// Soultion 1:
 // Checking all the combinations by looping over every elemnt and finding if
 // there is another value that equals the target given
-//
+
 // Time Complexity: O(n^2)
+// Where (n) is the amount of given numbers we have to loop over
 // For every element we have to loop through the rest of the array which takes 0(n) which were doing twice
-// which would be O(n^2)
+// which would be O(n^2).
 // Space O(1)
 // Doesnt need to store any data
 
